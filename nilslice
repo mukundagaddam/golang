@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+    var (
+        s []int
+        m map[int]bool
+    )
+    if s == nil {
+        fmt.Println("The value of s is nil")
+    }
+    if m == nil {
+        fmt.Println("The value of m is nil")
+    }
+}  
